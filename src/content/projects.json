@@ -1,0 +1,12 @@
+[
+  {
+    "title": "MERN stack demo store",
+    "description": "Fully functional web store with checkout.",
+    "skills": ["JS", "NextJS", "Serverless", "React", "Stripe", "Semantic UI"],
+    "image": "../images/gatsby-astronaut.png",
+    "links": {
+      "github": "",
+      "preview": ""
+    }
+  }
+]
