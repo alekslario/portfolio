@@ -7,9 +7,7 @@ import About from "../components/About"
 import Projects from "../components/Projects"
 import Navbar from "../components/Navbar"
 import Links from "../components/Links"
-import smoothscroll from "smoothscroll-polyfill"
 import statements from "../content/summary"
-smoothscroll.polyfill()
 
 const IndexPage = ({ data }) => (
   <Layout>
