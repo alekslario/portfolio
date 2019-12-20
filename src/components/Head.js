@@ -65,12 +65,7 @@ const Head = ({ description, lang = "en", meta = [], title }) => {
           content: metaDescription,
         },
       ].concat(meta)}
-    >
-      <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300|Ubuntu+Mono&display=swap"
-        rel="stylesheet"
-      />
-    </Helmet>
+    />
   )
 }
 
