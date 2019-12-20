@@ -3,13 +3,17 @@ import $ from "./Links.module.scss"
 const Links = () => (
   <div className={$.links}>
     <span>
-      <a rel="noopener" target="_blank" href="mailto:aleksandlario@gmail.com">
+      <a
+        rel="noopener noreferrer"
+        target="_blank"
+        href="mailto:aleksandlario@gmail.com"
+      >
         aleksandlario@gmail.com
       </a>
     </span>
     <span>
       <a
-        rel="noopener"
+        rel="noopener noreferrer"
         target="_blank"
         href="https://www.linkedin.com/in/aleksandrs-larionovs/"
       >
@@ -17,7 +21,11 @@ const Links = () => (
       </a>
     </span>
     <span>
-      <a rel="noopener" target="_blank" href="https://github.com/alekslario">
+      <a
+        rel="noopener  noreferrer"
+        target="_blank"
+        href="https://github.com/alekslario"
+      >
         github
       </a>
     </span>

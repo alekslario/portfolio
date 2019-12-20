@@ -36,16 +36,6 @@ a {
   }
 }
 
-.container-lg {
-  max-width: 1080px;
-  margin: 0 auto;
-  padding: 0 40px;
-
-  @include mobile {
-    padding: 0 20px;
-  }
-}
-
 .section-title {
   color: $grey;
   font-size: 1.3em;
@@ -68,14 +58,6 @@ a {
   width: 50px;
 }
 
-.footer {
-  margin: 0 auto;
-  font-size: 0.8em;
-  line-height: 1.5em;
-  text-align: center;
-  padding-bottom: 50px;
-  color: $grey;
-}
 button {
   padding: 0;
   border: none;

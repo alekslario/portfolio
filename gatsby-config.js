@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `Alex's Portfolio`,
@@ -32,7 +36,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: ``,
+        trackingId: process.env.GOOGLE_ANALYTICS_ID,
         anonymize: true,
         respectDNT: true,
       },
@@ -57,9 +61,11 @@ module.exports = {
         resources: [`${__dirname}/src/styles/index.scss`],
       },
     },
-
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/index/`],
+      },
+    },
   ],
 }
