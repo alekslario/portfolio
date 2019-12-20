@@ -11,20 +11,10 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-transformer-json`,
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          {
-            family: `Ubuntu Mono`,
-            variants: [`400`],
-            subsets: [`latin`],
-          },
-          {
-            family: `Open Sans`,
-            variants: [`300`],
-            subsets: [`latin`],
-          },
-        ],
+        fonts: [`Ubuntu Mono`, `Open Sans\:300`],
+        display: "swap",
       },
     },
     {
