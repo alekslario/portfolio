@@ -6,13 +6,6 @@ import { config } from "@fortawesome/fontawesome-svg-core"
 import "../fontawesome"
 // Prevent fontawesome from dynamically adding its css
 config.autoAddCss = false
-const Layout = ({ children }) => (
-  <>
-    <div className={$.container}>{children}</div>
-    <footer className={$.footer}>
-      Made by Aleksandrs Larionovs © {new Date().getFullYear()}
-    </footer>
-  </>
-)
+const Layout = ({ children }) => <div className={$.container}>{children}</div>
 
 export default Layout

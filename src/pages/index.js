@@ -7,6 +7,7 @@ import About from "../components/About"
 import Projects from "../components/Projects"
 import Navbar from "../components/Navbar"
 import Links from "../components/Links"
+import Footer from "../components/Footer"
 import statements from "../content/summary"
 
 const IndexPage = ({ data }) => (
@@ -23,6 +24,7 @@ const IndexPage = ({ data }) => (
       Contact me!
     </h2>
     <Links />
+    <Footer />
   </Layout>
 )
 
