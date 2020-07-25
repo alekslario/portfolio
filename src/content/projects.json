@@ -1,12 +1,24 @@
 [
   {
-    "title": "MERN stack demo store",
-    "description": "Fully functional web store with checkout.",
-    "skills": ["JS", "NextJS", "Serverless", "React", "Stripe", "Semantic UI"],
-    "image": "../images/gatsby-astronaut.png",
+    "title": "React remake of a Shopify theme (Palo Alto).",
+    "description": "Fully functional web store with checkout. (Stripe test key)",
+    "skills": [
+      "JS",
+      "NextJS",
+      "Serverless",
+      "React",
+      "Stripe",
+      "Styled Components",
+      "Contentful",
+      "MongoDB Atlas",
+      "Mongoose",
+      "Vercel",
+      "SendGrid"
+    ],
+    "image": "../images/skew.png",
     "links": {
-      "github": "",
-      "preview": ""
+      "github": "https://github.com/alekslario/Palo-Alto-Redux",
+      "preview": "https://palo-alto-redux.vercel.app"
     }
   }
 ]

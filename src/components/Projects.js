@@ -16,10 +16,10 @@ const Projects = ({ projects }) => (
       }) => (
         <div key={title} className={$.project_card}>
           <Img
-            className={$.project_image}
             fluid={image.childImageSharp.fluid}
+            className={$.project_image_wrapper}
           />
-          <div className={$.project_background} />
+
           <div className={$.project_content}>
             <h3>{title}</h3>
             <p dangerouslySetInnerHTML={{ __html: description }} />

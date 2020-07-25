@@ -6,8 +6,8 @@ const Hero = () => (
   <div className={$.container}>
     <Typewriter text="Alex Larionovs" />
     <div className={$.description}>
-      I am a web developer based in London. My passion is building simple,
-      beautiful user experiences.
+      I am a web developer based in London. My passion is building fast,
+      responsive web apps.
       <br />
       Check out my{" "}
       <button onClick={() => scrollTo("projects")}>projects</button> below.

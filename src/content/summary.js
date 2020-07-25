@@ -6,7 +6,7 @@ export default [
   {
     input: "Alex.contactInfo",
     return:
-      '["<a href="mailto:aleksandlario@gmail.com">aleksandlario@gmail.com</a>", "<a rel="noopener" target="_blank" href="https://www.linkedin.com/in/aleksandrs-larionovs/">LinkedIn</a>", "<a rel="noopener" target="_blank" href="https://https://github.com/alekslario">github</a>"]',
+      '["<a href="mailto:aleksandlario@gmail.com">aleksandlario@gmail.com</a>", "<a rel="noopener" target="_blank" href="https://www.linkedin.com/in/aleksandrs-larionovs/">LinkedIn</a>", "<a rel="noopener" target="_blank" href="https://github.com/alekslario">github</a>"]',
   },
   {
     input: "Alex.picture",
@@ -20,6 +20,6 @@ export default [
   {
     input: "Alex.skills",
     return:
-      '["Sass", "JavaScript", "Java", "Typescript", "React", "Redux", "Firebase", "webpack", "git"]',
+      '["JavaScript", "Sass", "Styled Components",  "Typescript", "React", "Redux", "Firebase", "webpack", "git"]',
   },
 ]
