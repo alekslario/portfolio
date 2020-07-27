@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `Alex's Portfolio`,
     description: `Alex's Portfolio`,
-    author: "Alex Lario",
+    author: "Alex Larionovs",
   },
   plugins: [
     `gatsby-plugin-sharp`,
@@ -15,10 +15,15 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-transformer-json`,
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts-with-attributes`,
       options: {
         fonts: [`Ubuntu Mono`, `Open Sans\:300`],
         display: "swap",
+        attributes: {
+          as: "style",
+          rel: "stylesheet preload prefetch",
+          type: "text/css",
+        },
       },
     },
     {
