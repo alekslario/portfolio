@@ -1,7 +1,7 @@
 [
   {
     "title": "React remake of a Shopify theme (Palo Alto).",
-    "description": "Fully functional web store with checkout. (Stripe test key)",
+    "description": "Fully functional web store with checkout.",
     "skills": [
       "JS",
       "NextJS",
@@ -15,10 +15,30 @@
       "Vercel",
       "SendGrid"
     ],
-    "image": "../images/skew.png",
+    "image": "../images/palo-alto-redux.png",
     "links": {
       "github": "https://github.com/alekslario/Palo-Alto-Redux",
       "preview": "https://palo-alto-redux.vercel.app"
+    }
+  },
+  {
+    "title": "My portfolio",
+    "description": "Minimal and to the point.",
+    "skills": ["JS", "GatsbyJS", "Netlify", "React", "Sass"],
+    "image": "../images/portfolio.png",
+    "links": {
+      "github": "https://github.com/alekslario/portfolio",
+      "preview": "https://alexlario.me/"
+    }
+  },
+  {
+    "title": "Firestore-size",
+    "description": "NPM package that calculates the approximate size of a Firestore document.",
+    "skills": ["JS"],
+    "image": "../images/firestore-size.png",
+    "links": {
+      "github": "https://github.com/alekslario/firestore-size",
+      "preview": "https://www.npmjs.com/package/firestore-size"
     }
   }
 ]
