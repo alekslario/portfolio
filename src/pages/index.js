@@ -1,13 +1,13 @@
-import React from "react"
-import { graphql } from "gatsby"
-import Layout from "../components/Layout"
+import About from "../components/About"
+import Footer from "../components/Footer"
 import Head from "../components/Head"
 import Hero from "../components/Hero"
-import About from "../components/About"
-import Projects from "../components/Projects"
-import Navbar from "../components/Navbar"
+import Layout from "../components/Layout"
 import Links from "../components/Links"
-import Footer from "../components/Footer"
+import Navbar from "../components/Navbar"
+import Projects from "../components/Projects"
+import React from "react"
+import { graphql } from "gatsby"
 import statements from "../content/summary"
 
 const IndexPage = ({ data }) => (
@@ -44,7 +44,7 @@ export const query = graphql`
           }
           image {
             childImageSharp {
-              fluid(maxWidth: 3000) {
+              fluid(maxWidth: 1000) {
                 ...GatsbyImageSharpFluid
               }
             }
