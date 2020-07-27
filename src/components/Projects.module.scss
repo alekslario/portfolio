@@ -12,11 +12,6 @@
     box-shadow: 0 50px 100px rgba(50, 50, 93, 0.05),
       0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    background: linear-gradient(90deg, #d9eafc, #ffffff 70%);
-
-    @include burner {
-      background: #ffffff;
-    }
     @include mobile {
       margin-bottom: 40px;
     }
