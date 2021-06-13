@@ -19,6 +19,6 @@ export default [
   {
     input: "Alex.skills",
     return:
-      '["JavaScript", "Sass", "Styled Components",  "Typescript", "React", "Redux", "Firebase", "webpack", "git"]',
+      '["JavaScript", "Sass", "MongoDB",  "Typescript", "React", "Node", "Python", "webpack", "Docker"]',
   },
 ]
